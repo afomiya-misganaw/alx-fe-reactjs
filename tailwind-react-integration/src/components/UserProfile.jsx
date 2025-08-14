@@ -10,6 +10,7 @@ function UserProfile() {
       my-10 sm:my-16 md:my-20 
       rounded-lg 
       shadow-lg
+      hover:text-blue-500
       hover:shadow-xl          
       transition-shadow        
       duration-300
