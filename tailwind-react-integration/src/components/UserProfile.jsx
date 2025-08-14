@@ -5,7 +5,7 @@ function UserProfile() {
     <div className="
       bg-gray-100 
       sm:p-4 sm:p-6 md:p-8 
-      max-w-xs sm:max-w-sm md:max-w-md 
+      max-w-xs sm:max-w-md md:max-w-sm md:text-xl
       mx-auto 
       my-10 sm:my-16 md:my-20 
       rounded-lg 
