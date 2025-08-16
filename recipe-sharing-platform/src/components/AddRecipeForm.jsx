@@ -35,6 +35,12 @@ export default function AddRecipeForm() {
       // Add logic to save data (e.g., to data.json or API)
     }
   };
+  <div 
+  key={recipe.id} 
+  className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+>
+  {/* Card content (image, title, etc.) */}
+</div>
 
   return (
     <div className="container mx-auto p-4 max-w-2xl">
