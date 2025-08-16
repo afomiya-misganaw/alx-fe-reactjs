@@ -1,6 +1,14 @@
 import { useState, useEffect } from 'react';
 import recipeData from '../data.json';
 
+import { Link } from 'react-router-dom';
+
+
+<Link to={`/recipe/${recipe.id}`}>
+  <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+    {Recipe}
+  </div>
+</Link>
 export default function HomePage() {
   const [recipes, setRecipes] = useState([]);
 
