@@ -4,6 +4,18 @@
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
     "image": "https://via.placeholder.com/150"
+    "ingredients": [
+    "200g spaghetti",
+    "100g pancetta",
+    "2 eggs",
+    "50g grated cheese"
+  ],
+  "instructions": [
+    "Boil pasta until al dente.",
+    "Fry pancetta until crispy.",
+    "Mix eggs and cheese.",
+    "Combine all ingredients."
+  ]
   },
   {
     "id": 2,
