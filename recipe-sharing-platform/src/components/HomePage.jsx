@@ -7,6 +7,12 @@ import { Link } from 'react-router-dom';
 <Link to={`/recipe/${recipe.id}`}>
   <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
     {Recipe}
+    import { Link } from 'react-router-dom';
+
+// Add this button somewhere in your HomePage:
+<Link to="/add-recipe" className="bg-green-500 text-white px-4 py-2 rounded inline-block mt-4">
+  Add New Recipe
+</Link>
   </div>
 </Link>
 export default function HomePage() {
