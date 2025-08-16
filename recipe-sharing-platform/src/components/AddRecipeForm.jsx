@@ -6,6 +6,12 @@ export default function AddRecipeForm() {
     ingredients: '',
     steps: '',
   });
+  const handleChange = (e) => {
+  setFormData({
+    ...formData,
+    [e.target.name]: e.target.value // THIS IS WHERE IT GOES (already there!)
+  });
+};
   const [errors, setErrors] = useState({});
 
   const handleChange = (e) => {
