@@ -1,7 +1,6 @@
 import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import * as Yup from 'yup';
-string().required 
+import * as Yup from 'yup'; 
 
 const validationSchema = Yup.object({
   username: Yup.string()
