@@ -1,5 +1,26 @@
 import React, { useState } from 'react';
 
+// In your RegistrationForm.jsx, make sure inputs have these exact value attributes:
+<input
+  type="text"
+  name="username"
+  value={formData.username}  // This should match exactly
+  onChange={handleChange}
+/>
+
+<input
+  type="email"
+  name="email"
+  value={formData.email}     // This should match exactly
+  onChange={handleChange}
+/>
+
+<input
+  type="password"
+  name="password"
+  value={formData.password}  // This should match exactly
+  onChange={handleChange}
+/>
 const RegistrationForm = () => {
   const [formData, setFormData] = useState({
     username: '',
