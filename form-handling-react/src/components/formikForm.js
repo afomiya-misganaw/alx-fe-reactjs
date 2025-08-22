@@ -1,7 +1,7 @@
 import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-
+string().required
 const validationSchema = Yup.object({
   username: Yup.string()
     .required('Username is required')
