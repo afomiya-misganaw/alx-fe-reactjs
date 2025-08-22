@@ -7,6 +7,7 @@ import ProtectedRoute from './components/ProtectedRoute';
 import Login from './components/Login';
 import Navbar from './components/Navbar';
 import './App.css';
+/blog/:id
 
 function App() {
   return (
