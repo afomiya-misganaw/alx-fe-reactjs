@@ -4,21 +4,21 @@ import React, { useState } from 'react';
 <input
   type="text"
   name="username"
-  value={formData.username}  // This should match exactly
+  value={username}  // This should match exactly
   onChange={handleChange}
 />
 
 <input
   type="email"
   name="email"
-  value={formData.email}     // This should match exactly
+  value={email}     // This should match exactly
   onChange={handleChange}
 />
 
 <input
   type="password"
   name="password"
-  value={formData.password}  // This should match exactly
+  value={password}  // This should match exactly
   onChange={handleChange}
 />
 const RegistrationForm = () => {
